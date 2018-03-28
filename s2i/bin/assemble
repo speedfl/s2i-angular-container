@@ -13,6 +13,7 @@ npm install --only=dev
 
 echo "---> Building Angular CLI Application"
 ./node_modules/@angular/cli/bin/ng build --prod
+./node_modules/sw-precache/sw-precache --root=dist --config=precache-config.js
 
 popd
 
