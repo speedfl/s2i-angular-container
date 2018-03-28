@@ -6,7 +6,7 @@
     "creationTimestamp": null
   },
   "spec": {
-    "dockerImageRepository": "schuermann/s2i-angular-container",
+    "dockerImageRepository": "speedflyer/s2i-angular-container",
     "tags": [
       {
         "name": "latest",
@@ -25,13 +25,13 @@
     ]
   },
   "status": {
-    "dockerImageRepository": "schuermann/s2i-angular-container",
+    "dockerImageRepository": "speedflyer/s2i-angular-container",
     "tags": [
       {
         "tag": "1",
         "items": [
           {
-            "dockerImageReference": "schuermann/s2i-angular-container:latest"
+            "dockerImageReference": "speedflyer/s2i-angular-container:latest"
           }
         ]
       }
